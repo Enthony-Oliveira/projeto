@@ -1,0 +1,72 @@
+1. Cartão de Apresentação Pessoal
+Objetivo: Criar um pequeno card com seu nome, foto, profissão e redes sociais.
+
+Requisitos mínimos:
+
+Caixa centralizada na tela
+
+Sua foto de perfil (ou imagem qualquer)
+
+Nome em destaque
+
+Texto com uma descrição (ex: "Desenvolvedor Front-end")
+
+Links (fakes) para redes sociais
+
+Estilizar com bordas, padding, e hover nos links
+
+✅ 2. Página de Restaurante (Landing Page Simples)
+Objetivo: Criar uma página para um restaurante fictício.
+
+Requisitos mínimos:
+
+Cabeçalho com o nome do restaurante
+
+Seções: "Sobre", "Cardápio", "Contato"
+
+Menu com pratos e preços em uma grade (pode ser <div> ou <ul>)
+
+Rodapé com endereço fictício e horário de funcionamento
+
+Fontes diferentes e uma paleta de cores com CSS
+
+✅ 3. Página de Login Simples (sem JS)
+Objetivo: Criar uma tela de login estilizada.
+
+Requisitos mínimos:
+
+Formulário com campos de e-mail e senha
+
+Botão de "Entrar"
+
+Layout centralizado vertical e horizontalmente
+
+Bordas arredondadas e cores suaves
+
+Efeitos de :hover e :focus nos campos
+
+✅ 4. Tabela de Preços (Plans/Preços estilo SaaS)
+Objetivo: Criar 3 planos de serviço lado a lado.
+
+Requisitos mínimos:
+
+3 caixas com títulos: "Básico", "Intermediário", "Premium"
+
+Cada caixa com uma lista de benefícios e um botão
+
+Destaque visual no plano intermediário (tipo box-shadow, cor, etc.)
+
+Tudo responsivo (usar %, vh, ou flexbox)
+
+✅ 5. Página de "Em construção"
+Objetivo: Criar uma tela de site em manutenção ou em breve.
+
+Requisitos mínimos:
+
+Fundo com cor ou imagem
+
+Texto central com: "Em breve..." ou "Site em construção"
+
+Ícone de engrenagem ou construção (pode usar emoji)
+
+Botão de "Voltar" ou "Receber notificação"
