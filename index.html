@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rochester&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Milkshake Shop</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Página de Restaurante</title>
   </head>
   <body>
-    <header class="inicio">
-      <nav class="menu">
-        <img src="img/logo.jpg" alt="logo" />
-        <a href="Home">Home</a>
-        <a href="Sobre">Sobre</a>
-        <a href="Cardapio">Cardapio</a>
-        <a href="Contato">Contato</a>
-      </nav>
-    </header>
-    <div class="Cardapio"></div>
-    <div></div>
-    <div></div>
+    <div class="container">
+      <h1>Escolha seu Milkshake</h1>
+      <select id="sabores">
+        <option value="">-- Selecione um sabor --</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="baunilha">Baunilha</option>
+        <option value="morango">Morango</option>
+        <option value="doce-de-leite">Doce de Leite</option>
+      </select>
+
+      <div id="imagem-container">
+        <img
+          id="imagem-sabor"
+          src="img/morango.png"
+          alt="Imagem do milkshake"
+          style="display: none"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
